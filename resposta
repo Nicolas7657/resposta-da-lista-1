@@ -1,0 +1,73 @@
+1)let numeros =[10,20,5,30,40];
+let posicao = numeros.indexOf(5);
+console.log(posicao);
+
+
+2)let nomes =["ana","Beatriz","Carlos"];
+let contemCarlos = nomes.includes("Carlos");
+console.log(contemCarlos);
+
+
+3)let frutas = ["maçã", "banana", "laranja"];
+
+frutas.forEach(function(fruta) {
+  console.log(fruta);
+});
+
+4)let numeros = [5, 10, 15, 20];
+let posicao = numeros.indexOf(15);
+console.log(posicao);
+
+5)let cores = ["azul", "verde", "vermelho"];
+let contemAmarelo = cores.includes("amarelo");
+console.log(contemAmarelo); // Vai imprimir false
+
+6)
+let linguagens = ["JavaScript", "Python", "Java"];
+linguagens.forEach(function(linguagem) {
+  console.log(linguagem);
+});
+
+7)let animais = ["gato", "cachorro", "pássaro", "cachorro"];
+let indice = animais.indexOf("cachorro");
+console.log(indice);
+
+8)
+let frutas = ["maçã", "banana", "uva"];
+let contemLaranja = frutas.includes("laranja");
+console.log(contemLaranja); // Vai imprimir false
+
+9)let numeros = [1, 2, 3, 4];
+
+let soma = 0;
+for (let i = 0; i < numeros.length; i++) {
+  soma += numeros[i];
+}
+
+console.log(soma); // Vai imprimir 10
+
+10)
+let frutas = ["banana", "maçã", "laranja"];
+
+let contemMorango = frutas.includes("morango");
+
+console.log(contemMorango); // Vai imprimir false
+
+11)
+let linguagens = ["JavaScript", "Python", "Java"];
+let indice = linguagens.indexOf("Python");
+console.log(indice); // Vai imprimir 1
+
+12)let numeros = [2, 4, 6];
+let numerosMultiplicados = numeros.map(numero => numero * 2);
+console.log(numerosMultiplicados); // Vai imprimir [4, 8, 12]
+
+13)let esportes = ["futebol", "basquete", "natação"];
+let contemBeisebol = esportes.includes("beisebol");
+console.log(contemBeisebol); // Vai imprimir false
+
+14)let frutas = ["maçã", "banana", "laranja"];
+let quantidadeFrutas = frutas.length;
+console.log(quantidadeFrutas); // Vai imprimir 3
+
+15)
